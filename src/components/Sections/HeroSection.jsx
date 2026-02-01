@@ -179,7 +179,7 @@ Merged`}
           ref={titleRef}
           className="text-xl sm:text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-8 font-light"
         >
-          <span className="text-cyan-500 font-semibold">Frontend Developer</span>
+          <span className="text-cyan-500 font-semibold">Freelancer</span>
           <span className="text-gray-400 mx-3">|</span>
           <span className="text-purple-500 font-semibold">FullStack Developer</span>
           <span className="text-gray-400 mx-3">|</span>
