@@ -13,6 +13,7 @@ This portfolio is built using the following technologies:
 -   **[Zustand](https://zustand-demo.pmnd.rs/)**: A small, fast and scalable bearbones state-management solution.
 -   **[React Router](https://reactrouter.com/)**: Declarative routing for React web applications.
 -   **[Zod](https://zod.dev/)**: TypeScript-first schema declaration and validation library.
+-   **[Framer Motion](http://motion.dev/)**: Free and open source. Create stunning web animations for React, JavaScript and Vue.
 
 ## ✨ Features
 
