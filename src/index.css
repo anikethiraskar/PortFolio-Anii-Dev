@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-urbanist: 'Urbanist', sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-urbanist);
+  }
+
+  body {
+    @apply bg-white dark:bg-[hsl(240_20%_4%)] text-black dark:text-white transition-colors duration-300;
+    overflow-x: hidden;
+  }
+}
+/* Width of scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #0f172a; /* dark background */
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #06b6d4,
+    #8b5cf6
+  );
+  border-radius: 10px;
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #22d3ee,
+    #a78bfa
+  );
+}
